@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+html, body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    width: 100%;
+}
+
+
+header{
+    width:70%;
+    display: flex;
+    align-items: center;
+}
+.voltar{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+header h1{
+    margin-left: 30%;
+}
+
+.container{
+    background-color: white;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.img1, .img2, .img3, .img4, .img5, .img6{
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 350px;
+    background-color: white;
+}
+.img1{
+    background-image: url("https://media1.popsugar-assets.com/files/thumbor/RR37Tcj_OHT944v5gq8wyiq9BbM/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/09/09/688/n/1922564/22df9f7ef43433d2_AL1020_SELENA_4_1_/i/Selena-Gomez-wearing-Romeo-Hunte-jacket-Way-We-Wore-vintage.jpg");
+}
+.img2{
+    background-image: url("https://pbs.twimg.com/media/EheWr2GXsAEMBN2.jpg");
+}
+.img3{
+    background-image: url("https://pbs.twimg.com/media/EheXmrcXcAYI4aY.jpg");
+}
+.img4{
+    background-image: url("https://i.pinimg.com/originals/b7/c3/4f/b7c34f0c9a0f402a6e7d81fbf4776dbb.jpg");
+}
+.img5{
+    background-image: url("https://4.bp.blogspot.com/-gtNbN4zmOdU/Ur2dG6Un_2I/AAAAAAAAA5c/strbZDqWCCo/s1600/selena-gomez-teen-vogue-december-2013-hq-03.jpg");
+    background-size: cover;
+    background-position: top;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+.img6{
+    background-image: url("https://www.mendozapost.com/files/image/136/136903/59b408eb93060_1420_!.jpg?s=1aa678c551c88ac8ba559968214e5047&d=1504987597");
+}
+
+.card-lateral{
+    border: 1px solid gray;
+    border-left: none;
+    width: 349px;
+    background-color: white;
+}
+.perfil{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-bottom: 1px solid gray;
+    height: 90px;
+}
+.imgPerfil{
+    height: 40px;
+    border-radius: 50%;
+}
+.usuario{
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.legenda{
+    margin: 30px 40px;
+}
+
+
+@media (min-width: 980px){
+    .container{
+        flex-direction: row;
+        width: 70%;
+    }
+    .card-lateral{
+        width: 350px;
+    }
+    .img1, .img2, .img3, .img4, .img5, .img6{
+        width: 600px;
+        height: 600px;
+    }
+}
